@@ -1,0 +1,192 @@
+.form-order{
+    margin-top: 40px;
+    background-color: #222222;
+    padding: 10px;
+    border: 1px solid #CCC;
+}
+.remove-parent{
+    position: relative;
+}
+.remove-target{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: red;
+    -webkit-transform: translate(-150%,-50%);
+    -moz-transform: translate(-150%,-50%);
+    -o-transform: translate(-150%,-50%);
+    -ms-transform: translate(-150%,-50%);
+    transform: translate(-150%,-50%);
+    cursor: pointer;
+}
+.pagination{
+    max-width: 400px;
+    padding: 10px;
+    direction: ltr;
+}
+.pagination span{
+    background-color: #4a4a4a;
+    color: white;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 5px;
+    display: inline-block;
+    width: 23px;
+    cursor: pointer;
+}
+.pagination span.active{
+    background-color: #930606;
+}
+#form-targets{
+    display: none;
+    position: fixed;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    background-color: #222222;
+    left: 50%;
+    top: 20%;
+    width: 40%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 9;
+    padding: 10px;
+    text-align: center;
+}
+.half-right{
+    margin-left: 0;
+}
+.edit-order{
+    position: fixed;
+    width: 50%;
+    left: 42%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 300px;
+    z-index: 99999;
+    display: none;
+}
+#edit-order{
+    border: 1px solid rgb(56 56 56);
+    border-radius: 5px;
+}
+.input-label{
+    display: block;
+    margin-right: 4px;
+}
+.inside-inpt{
+    top:70%
+}
+#select-user{
+    display: block;
+    width: 100%;
+    text-indent: 46%;
+}
+.inventory-box{
+    border: 1px solid #484848;
+    height: 155px;
+    -webkit-box-shadow: 10px 10px 10px #0c0c0c;
+    -moz-box-shadow: 10px 10px 10px #0c0c0c;
+    -o-box-shadow: 10px 10px 10px #0c0c0c;
+    -ms-box-shadow: 10px 10px 10px #0c0c0c;
+    box-shadow: 10px 10px 10px #0c0c0c;
+    background-image: url(../../public_front_files/imgs/assets/inv_background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.inventory-box a.inventory-name{
+    display: block;
+    font-weight: bold;
+}
+.inventory-parent{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.add-inventory-name{
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    width: 37%;
+    top: 20%;
+    left: 42%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 20px;
+    display: none;
+}
+.count-of-inventory-clothes{
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+}
+li.active li.active a{
+    color: white;
+    background-color: #080808;
+}
+fieldset{
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+legend{
+    width: auto;
+    border: 0;
+    color: white;
+}
+.half-right{
+    width: 49%;
+}
+.half-left{
+    width: 49%;
+}
+.slide-more{
+    color:white;
+    position: relative;
+    z-index: 1;
+    margin-top: 19px;
+    margin-left: 10px;
+}
+.google-visualization-tooltip path{
+    fill: #1d1d1d;
+    stroke: grey;
+}
+text{
+    fill:white;
+}
+@media (max-width:768px){
+    #form-targets{
+        width:80%;
+    }
+    .add-inventory-name{
+        width: 63%;
+        left: 47%;
+    }
+    .edit-order{
+        left: 50%;
+        width: 70%;
+    }
+    #select-user{
+        text-indent: 37%;
+    }
+    .half-right{
+        width: 46%;
+    }
+    .half-left{
+        width: 46%;
+    }
+    input::placeholder,textarea::placeholder,select,legend{
+        font-size: 13px;
+    }
+}

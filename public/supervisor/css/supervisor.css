@@ -1,0 +1,129 @@
+body{
+    overflow-x: auto;
+}
+select{
+    font-size: small;
+    height: auto !important;
+}
+.container-fluid{
+    margin-bottom: -10px;
+}
+th.text-danger{
+    font-size: 12px;
+}
+.top-nav>li>a:hover{
+    cursor: pointer;
+    background-color:transparent ;
+}
+.navbar-left{
+    position: relative;
+}
+.notif-box{
+    padding:10px;
+    width: 600px;
+    max-height: 500px;
+    overflow: auto;
+}
+.top-nav>.open>.dropdown-menu>li>a.edit{
+    display: inline-block;
+    color: white;
+}
+#count_of_notif{
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 12px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 48%;
+    top: 10px;
+    z-index: 1;
+    padding-left: 19px;
+    padding-right: 11px;
+}
+.bell-notification{
+    font-size: 20px;
+}
+.notif-box li{
+    padding: 15px 5px 5px 5px;
+    position: relative;
+    margin-top:2px;
+    text-align: right;
+    background-color: #efefef;
+}
+.notif-box span.type{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 11px;
+    color: rgb(158 158 158);
+    font-weight: bold;
+}
+.notif-box span.date{
+    color: rgb(158 158 158);
+    font-size: 11px;
+    position: absolute;
+    -webkit-transform: translateX(-10%);
+    -moz-transform: translateX(-10%);
+    -o-transform: translateX(-10%);
+    -ms-transform: translateX(-10%);
+    transform: translateX(-10%);
+    right: 0%;
+    top: 5%;
+    font-weight: bold;
+}
+.top-nav>.open>a:hover,
+.top-nav>.open>a,
+.top-nav>li>a:focus,
+.top-nav>.open>a:focus{
+    height: 50px;
+    background-color: black;
+    cursor: pointer;
+}
+.edit-order{
+    position: fixed;
+    width: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 300px;
+    z-index: 99999;
+    display: none;
+}
+.form-add-order{
+    margin-top: 40px;
+    padding: 10px;
+}
+#edit-order{
+    border-radius: 5px;
+}
+@media(max-width:768px) {
+    .date-card{
+        font-size: 10px;
+    }
+    .custom-date{
+        font-size: 10px;
+    }
+    .edit-order{
+        width: 80%;
+    }
+    .notif-box{
+        width: 300px;
+    }
+    .notif-box span.date{
+        -webkit-transform: translateX(50%);
+        -moz-transform: translateX(50%);
+        -o-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        transform: translateX(50%);
+        right: 22%;
+        top:0%
+    }
+}

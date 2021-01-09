@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(7 7 7);
+}
+.login-section .img-parent{
+    padding-top: 50px ;
+}
+.login-section .form-parent{
+    padding-top: 100px ;
+}    
+.login-section .form-inputs{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.login-section .form-inputs input{
+    height: 40px;
+}
+.form-login{
+    background-color: rgb(34 34 34);
+    border-left: 1px solid rgb(51 51 51);
+    position: absolute;
+    height: 100%;
+}
+.form-login h2{
+    color:white;
+}
+@media (max-width:776px){
+    .form-login{
+        width: 100%;
+        left: 0;
+    }    
+    .login-section .form-inputs{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

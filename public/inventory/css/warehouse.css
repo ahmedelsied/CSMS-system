@@ -1,0 +1,55 @@
+.orders-ready{
+    padding-top: 30px;
+    padding-right: 225px;
+}
+.daily-pieces,.daily-petrol{
+    height: 140px;
+    width: 95%;
+
+}
+input[type="text"],input[type="password"],select,textarea{
+    font-size: 20px !important;
+}
+.form-order{
+    margin-top: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #CCC;
+}
+.order-details select,.order-details input{
+    font-size: small !important;
+    height: 40px !important;
+    margin-bottom: 10px;
+}
+textarea{
+    height: 200px !important;
+}
+.edit-order{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 300px;
+    z-index: 99999;
+    display: none;
+}
+#edit-order{
+    border: 1px solid rgb(34 34 34);
+    background-color: #222222;
+    padding: 30px;
+    border-radius: 5px;
+    -webkit-box-shadow: -3px 3px 10px #353535;
+    -moz-box-shadow: -3px 3px 10px #353535;
+    -o-box-shadow: -3px 3px 10px #353535;
+    -ms-box-shadow: -3px 3px 10px #353535;
+    box-shadow: -3px 3px 10px #353535;
+}
+@media (max-width:769px){
+    .daily-pieces{
+        width: 50%;
+    }
+}

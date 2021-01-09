@@ -1,0 +1,84 @@
+body{
+    overflow: auto;
+}
+.all_targets_parent{
+    position: fixed;
+    left: 0;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    background-color: #ff5757;
+    color: white;
+    padding: 10px;
+    margin: 10px 0px;
+    z-index: 99999;
+    -webkit-transition: all ease-in-out 0.9s;
+    -moz-transition: all ease-in-out 0.9s;
+    -o-transition: all ease-in-out 0.9s;
+    -ms-transition: all ease-in-out 0.9s;
+    transition: all ease-in-out 0.9s;
+}
+.all_targets_parent i{
+    background-color: #ff3131;
+    text-align: center;
+    border: 1px solid #ff3030;
+    border-radius: 50%;
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    cursor: pointer;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+}
+.info-show{
+    transform: translateX(0%);
+}
+.all_targets_parent .info_targets{
+    list-style: inside disc;
+}
+.all_targets_parent .all_targets{
+    list-style: inside decimal;
+    margin-right: 50px;
+}
+.order-details select,.order-details input{
+    font-size: small !important;
+    height: 40px !important;
+    margin-bottom: 10px;
+}
+textarea{
+    height: 200px !important;
+}
+.edit-order{
+    position: absolute;
+    padding: 10px;
+    width: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 300px;
+    z-index: 99999;
+    display: none;
+}
+.edit-order form{
+    padding: 10px;
+}
+.input-label{
+    display: block;
+    margin-right: 4px;
+}
+@media(max-width:768px){
+    .edit-order{
+        width: 75%;
+    }
+}

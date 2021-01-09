@@ -1,0 +1,25 @@
+select {
+    font-size: small;
+    height: auto !important;
+}
+.driver-name{
+    position: fixed;
+    z-index: 999;
+    width: 37%;
+    top: 20%;
+    left: 42%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 20px;
+    display: none;
+}
+
+@media(max-width:768px){
+    .driver-name{
+        width: 63%;
+        left: 47%;
+    }
+}

@@ -1,0 +1,70 @@
+body{
+    overflow-x: auto;
+}
+.navbar-default{
+    height: 72px;
+}
+nav h2{
+    color:white;
+}
+nav a.pull-right{
+    position: absolute;
+    right: 0;
+    padding: 20px 20px 20px 0;
+    font-size: 20px;
+}
+nav a.logout i{
+    transform: rotate(180deg);
+    margin-right: 5px;
+}
+nav a.back{
+    margin:10px;
+}
+.order-section .review{
+    margin-bottom: 4px;
+}
+.edit-order{
+    position: fixed;
+    width: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 300px;
+    z-index: 99999;
+    display: none;
+}
+.form-add-order{
+    margin-top: 40px;
+    background-color: #222222;
+    padding: 10px;
+    border: 1px solid #3a3a3a;
+}
+.form-add-order h3{
+    color: white;
+}
+#edit-order{
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+    -webkit-box-shadow: -3px 3px 10px black;
+    -moz-box-shadow: -3px 3px 10px black;
+    -o-box-shadow: -3px 3px 10px black;
+    -ms-box-shadow: -3px 3px 10px black;
+    box-shadow: -3px 3px 10px black;
+}
+@media (max-width: 768px){
+    nav a{
+        font-size: 12px;    
+    }
+    nav h4{
+        padding-top: 10px;    
+    }
+    nav a.pull-right{
+        font-size: 13px;
+    }
+    .edit-order{
+        width: 80%;
+    }
+}
