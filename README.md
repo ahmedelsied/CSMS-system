@@ -6,8 +6,4 @@ There were many challenges for me in this project such as:
 - Using Google Maps API to display sales representatives's coordinates with live update
 - Using Google Charts to visualize data
 - Secure connection between web application and android app (JWT)
-<<<<<<< HEAD
-test
-=======
->>>>>>> main
 -------------
