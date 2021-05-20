@@ -1,5 +1,5 @@
 # CSMS-system
-CSMS is a system for clothing companies and their inventories that takes care of all company employees and facilitates their work,<br> whether they are customer service, sales representatives, supervisors, freight officials or company managers
+CSMS is an ERP system for clothing companies and their inventories that takes care of all company employees and facilitates their work,<br> whether they are customer service, sales representatives, supervisors, freight officials or company managers
 There were many challenges for me in this project such as:
 - Real-time notifications system
 - Real-time tracking system for sales representatives
